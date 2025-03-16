@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "NodeJs Learning From Sheryians Coding School - YouTube, Backend Playlist",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "express": "^4.21.2"
   }
 }

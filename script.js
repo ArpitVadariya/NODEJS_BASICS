@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 
+// this two middleware use for convert data in other form for backend
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 // middleware run first
 app.use(function (req, res, next) {
   console.log("middleware started");
